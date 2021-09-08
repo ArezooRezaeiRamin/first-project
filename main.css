@@ -187,16 +187,28 @@ hr{
 }
 
 .footer{
+    width: 100%;
+    height: auto;
+    margin: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.list{
+.footer ul li{
+    font-size: 12px;
+}
+
+.footer ul{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    font-size: 15px;
+    width: 60%;
+    list-style-type: none;
+}
+
+.a-tag{
+    text-decoration: none;
+    color:blue;
 }
