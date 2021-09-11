@@ -255,7 +255,7 @@ hr{
         padding-bottom: 20px;
     }
 }
-@media screen and (max-width:628px){
+@media screen and (max-width:768px){
     .footer{
         display: none;
     }
